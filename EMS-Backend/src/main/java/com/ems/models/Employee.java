@@ -1,4 +1,4 @@
-package com.ems.model;
+package com.ems.models;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
