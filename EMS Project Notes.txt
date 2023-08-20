@@ -1,0 +1,52 @@
+1. Project Overview
+
+->	To develop a CRUD full stack web application that is basic Employee Management Application using Angular 10 and Spring Boot.
+
+->	Create, List, Update, Delete and View Employee
+
+2. Angular and Spring Boot
+
+->	Angular is a platform and framework for building single-page client applications using HTML and TpeScript. Angular is written in TpeScript.
+
+->	Great for single page application.
+
+->	Angular is modular in nature.
+
+->	Built-in features DI, data binding etc
+
+->	Spring boot to develop REST web services and microservices.
+
+->	Spring Boot has taken spring framework to the next level. It has drastically reduced the configuration and setup time requied for spring projects.
+
+->	you can setup a project with almost zero configuration and start building the things that actually matter to your application.
+
+3. Technology
+
+->	Angular : Angular modules, Component, Data Binding and Routing
+
+->	Spring Boot : Spring Boot Web, Spring Boot Data JPA.
+
+-> 	Connection between Angular frontent to a RESTful API.
+
+->	Connection between REST API to JPA.
+
+4. Frontend-side tools and technologies used
+
+->	Angular 10
+->	TypesScript
+->	NodeJs and NPM
+->	VS code IDE
+-> 	Angular CLI
+->	Bootstrap 4+
+
+
+5. Server-side tools and technologies used
+
+->	Spring Boot 3+
+->	SpringData JPA (Hibeernate)
+->	Maven 3.2+
+->	JDK 1.8
+->	Embedded Tomcat 8.5+
+->	MySQL Database
+
+6.	
