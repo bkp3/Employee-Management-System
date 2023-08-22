@@ -7,6 +7,7 @@ import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { CreateEmployeeComponent } from './create-employee/create-employee.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CreateEmployeeComponent } from './create-employee/create-employee.compo
     BrowserModule,
     // Steps 3 : We need to add app-routing.modules.ts here
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
