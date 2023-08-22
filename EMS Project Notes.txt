@@ -59,3 +59,11 @@
 
 ->	To define a class as a service in Angular, use the @Injectable() decorator to provide the metadata that allows Angular to inject it into a component as a dependency.
 
+7. Steps to adding the routes
+
+->	Steps 1. We need to add base href="/"
+->	Steps 2. We need to create AppRoutingModule
+->	Steps 3 : We need to add app-routing.modules.ts here
+->	Steps 4. We need to configure routes in routes array
+->	Steps 5. We need to configure router-outlet directives
+
