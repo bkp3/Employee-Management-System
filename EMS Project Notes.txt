@@ -49,4 +49,13 @@
 ->	Embedded Tomcat 8.5+
 ->	MySQL Database
 
-6.	
+6.	Angular Service
+
+->	To share the data among various components in an Angular App.
+
+->	To make the tesking and debugging simple
+
+->	A component can delegate, certain tasks to services, such as fetching data from the server, validating user input, or logging directly to the console.
+
+->	To define a class as a service in Angular, use the @Injectable() decorator to provide the metadata that allows Angular to inject it into a component as a dependency.
+
