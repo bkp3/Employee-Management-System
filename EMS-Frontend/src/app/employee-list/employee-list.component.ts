@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 export class EmployeeListComponent implements OnInit {
 
   employees: Employee[] = [];
-  constructor(private employeeService: EmployeeService,private router:Router) {
+  constructor(private employeeService: EmployeeService, private router: Router) {
 
   }
   ngOnInit(): void {
@@ -23,8 +23,17 @@ export class EmployeeListComponent implements OnInit {
     });
   }
 
-  updateEmployee(id: number){
-    this.router.navigate(['update-employee',id]);
+  updateEmployee(id: number) {
+    this.router.navigate(['update-employee', id]);
+
+  }
+
+  deleteEmployee(id: number) {
+    this.employeeService.deleteEmployee(id).subscribe(data => {
+      console.log(data);
+      this.getEmployees();
+
+    })
 
   }
 
